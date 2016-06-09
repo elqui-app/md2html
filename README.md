@@ -20,12 +20,12 @@ If you want a complete html page, you may use template like the default template
 
 ## Thanks
 
-This project is inspired from (stackedit)[stackedit.io] but works as a standalone without-browser version.
+This project is inspired from [stackedit](stackedit.io) but works as a standalone without-browser version.
 
 Like stackedit, it uses :
 
-* (pagedown)[https://github.com/ujifgc/pagedown]
-* (js-sequence-diagrams)[https://github.com/ujifgc/pagedown]
+* [pagedown](https://github.com/ujifgc/pagedown)
+* [js-sequence-diagrams](https://github.com/ujifgc/pagedown)
 
 
 ## Next steps
