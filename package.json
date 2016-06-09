@@ -1,6 +1,6 @@
 {
   "name": "node-md2html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Executable to generate html from markdown.",
   "bin": {
       "md2html": "bin/md2html"
