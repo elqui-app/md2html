@@ -7,7 +7,7 @@
 // http://bramp.github.io/js-sequence-diagrams/
 //
 //
-//https://github.com/bramp/js-sequence-diagrams
+// https://github.com/bramp/js-sequence-diagrams
 //
 
 var fs = require('fs');
@@ -62,7 +62,7 @@ html = converter.makeHtml(html);
 // reinsert the sequence diagrams
 var sequenceIndex = 0;
 html = html.replace(/<code>sequence<\/code>/g,function(x){
-    x = '<div class="sequence-diagram">'+sequences[sequenceIndex]+'</div>';
+    x = '<div class="diagram"><div class="sequence-diagram">'+sequences[sequenceIndex]+'</div><!--<a class="diagram-download">download</a>--></div>';
     sequenceIndex++;
     return x;
 });

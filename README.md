@@ -25,7 +25,7 @@ This project is inspired from [stackedit](stackedit.io) but works as a standalon
 Like stackedit, it uses :
 
 * [pagedown](https://github.com/ujifgc/pagedown)
-* [js-sequence-diagrams](https://github.com/ujifgc/pagedown)
+* [js-sequence-diagrams](http://bramp.github.io/js-sequence-diagrams/)
 
 
 ## Next steps
