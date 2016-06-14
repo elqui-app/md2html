@@ -49,12 +49,16 @@ html = fs.readFileSync(mdFilename,'utf8');
 
 var sequences = [];
 // remove and store the sequence diagram 
-var regex = /```sequence([\s\S]*)```/;
+var regex = /```sequence([\s\S]+?)```/g;
 html = html.replace(regex, function(x){
-    var sequence = x.match(regex)[1];
+    //console.log(x);
+    var sequence = x.match(/```sequence([\s\S]+?)```/)[1];
+    //console.log(sequence);
     sequences.push(sequence);
     return '```sequence```';
 });
+
+//console.log(html);
 
 // convert the simple markdown
 html = converter.makeHtml(html);
